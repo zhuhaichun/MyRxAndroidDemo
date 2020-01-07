@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DataBinding根布局需要是layout且去掉layout_width和layout_height属性-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.android.haichun.myrxandroiddemo.widget.PullBackLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:id="@+id/pullBackLayout">
+        <FrameLayout
+            android:id="@+id/image_frame"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent"
+                android:id="@+id/iv_photo"/>
+        </FrameLayout>
+    </com.android.haichun.myrxandroiddemo.widget.PullBackLayout>
+</layout>
